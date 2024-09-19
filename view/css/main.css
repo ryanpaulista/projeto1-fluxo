@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    height: 4em;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+/* ↑ Header ↓ Body*/
+
+#secao-segueofx{
+    height: 6em;
+    background-color: #996AAA;
+    display: flex;
+    align-items: center;
+    
+}
+
+#secao-segueofx h1{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+}
+
+/* ↑ Segue o FX ↓ Compre por jogador */
+
+#secao-compre-por-jogador{
+    height: 35em;
+    background-color: black;
+    padding: 1em;
+    color: white;
+}
+
+#secao-compre-por-jogador h1{
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+#nav-lines{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em;
+    gap: 1em;
+}
+
+#nav-lines button{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 2em;
+    border: solid 1px white;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+}
+
+#secao-cards-jogadores{
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#secao-cards-jogadores {
+    user-select: none; /* Prevenir seleção de texto */
+    -webkit-user-select: none; /* Para navegadores Webkit (Chrome, Safari) */
+    -ms-user-select: none; /* Para navegadores da Microsoft */
+}
+.card{
+    width: 16em;
+    height: 25em;
+    border-radius: 30px;
+    min-width: 16em;
+    cursor: grab;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding-bottom: 2em;
+    background-size: cover;
+}
+
+.tag{
+    width: 13em;
+    height: 3em;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    color: black;
+}
+
+.card1{
+    background-image: url(/view/imagens/nobru.png);
+}
+
+.card2{
+    background-image: url(/view/imagens/cerol.jpg);
+}
+
+.card3{
+    background-image: url(/view/imagens/bops.jpg);
+}
+
+.card4{
+    background-image: url(/view/imagens/nicks.jpg);
+}
+
+.card5{
+    background-image: url(/view/imagens/goddess.jpg);
+}
+
+.card6{
+    background-image: url(/view/imagens/shini.png);
+}
+
+.card7{
+    background-image: url(/view/imagens/r61.jpg);
+}
+
+.card8{
+    background-image: url(/view/imagens/but.jpg);
+}
+
+.card9{
+    background-image: url(/view/imagens/art.jpg);
+}
+
+.card10{
+    background-image: url(/view/imagens/MT7_9.jpg);
+}
+
+.card11{
+    background-image: url(/view/imagens/GIUH7.jpg);
+}
+
+.card12{
+    background-image: url(/view/imagens/yun.jpg);
+}
+
+.card13{
+    background-image: url(/view/imagens/zevy.jpg);
+}
+
+
+
+/* ↑ Compre por Jogador ↓ Nova coleção*/
+
+#nova-coleção{
+    padding: 2em;
+}
+
+#nova-coleção h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.card-NC{
+    width: 28em;
+    height: 38em;
+    border-radius: 30px;    
+    min-width: 20em;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.tag-NC{
+    width: 80%;
+    height: 3em;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    color: black;
+}
+
+#seção-conjuntos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.n1{
+    background-image: url(/view/imagens/art.jpg);
+    background-position: center;
+}
+
+.n2{
+    background-image: url(/view/imagens/conjFem.jpg);
+    background-position: center;
+}
+
+/* ↑ Nova coleção ↓ Patrocinios*/
+
+#seção-patrocinadores h1{
+    text-align: center;
+}
+
+#imgs-patrocinadores{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.patrocinios{
+    width: 100px;
+    margin: 3em;
+    cursor: pointer;
+}
+
+
+
+/* ↑ Patrocinios ↓ Footer*/
+
+footer{
+    background-color: #996AAA;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    box-sizing: border-box;
+}
+
+footer nav{
+    margin-top: 2.4em;
+    margin-left: 2.4em;
+}
+
+footer nav ul li{
+    margin-top: 1.2em;
+}
+
+#sociais{
+    width: 100%;
+    display: flex;          
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    gap: 2em;
+}
+#sociais a{
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+svg{
+    width: 35px;
+}
+
+
+/* ↑ Footer ↓ Mobile configs*/
+
+
+@media screen and (max-width: 700px) {
+
+    #nova-coleção h1{
+        margin-bottom: 1em;
+    }
+    .card-NC{
+        width: 100%;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    #imgs-patrocinadores{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    .patrocinios{
+        width: 50px;
+        margin: 0.5em;
+    }
+
+    #lgultra{
+        width: 80px;
+        height: 22px;
+    }
+
+    #sociais{
+        margin-top: 2em;
+        margin-bottom: 1em;
+        padding: 1em;
+        padding-bottom: 0;
+    }
+    #sociais a{
+        margin: 1em
+    }
+    svg{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .card-NC{
+        width: 10em;
+        height: 30em;
+
+    }
+
+    .patrocinios{
+        width: 40px;
+        margin: 0.3em;
+    }
+
+    #lgultra{
+        width: 80px;
+        height: 22px;
+    }
+
+    #sociais{
+        justify-content: space-evenly;
+        padding-bottom: 1em;
+    }
+
+    #sociais a{
+        margin: 0;
+    }
+}
