@@ -279,7 +279,7 @@ footer nav ul li{
 #sociais{
     width: 100%;
     display: flex;          
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     display: flex;
     gap: 2em;
