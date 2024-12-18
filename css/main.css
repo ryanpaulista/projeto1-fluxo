@@ -329,10 +329,16 @@ svg{
         margin-top: 2em;
         margin-bottom: 1em;
         padding-bottom: 0;
+        gap: 1em;
     }
     #sociais a{
         margin: 1em
     }
+
+    #sociais a svg{
+        width: 25px;
+    }
+
     svg{
         width: 35px;
         height: 35px;
@@ -364,5 +370,9 @@ svg{
 
     #sociais a{
         margin: 0;
+    }
+
+    #sociais a svg{
+        width: 20px;
     }
 }
